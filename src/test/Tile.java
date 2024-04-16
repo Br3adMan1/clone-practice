@@ -1,6 +1,5 @@
 package test;
 import java.util.Random;
-import java.util.HashMap;
 
 public class Tile {
     final public char letter;
@@ -9,9 +8,6 @@ public class Tile {
     private Tile(char letter , int score){
         this.letter = letter;
         this.score = score;
-        equals(this);
-        hashCode();
-
     }
     public boolean equals(Object object) {
         if (this == object) return true;
@@ -30,7 +26,6 @@ public class Tile {
         int[] amounts;
         Tile[] tiles;
         Random random;
-        HashMap<Character, Integer> letterToIndex;
         private static final int[] INITIAL_AMOUNTS = {9, 2, 2, 4, 12, 2, 3, 2, 9, 1, 1, 4, 2, 6, 8, 2, 1, 6, 4, 6, 4, 2, 2, 1, 2, 1};
         private Bag(){
             amounts = new int[]{9, 2, 2, 4, 12, 2, 3, 2, 9, 1, 1, 4, 2, 6, 8, 2, 1, 6, 4, 6, 4, 2, 2, 1, 2, 1};
@@ -43,10 +38,6 @@ public class Tile {
                     new Tile('Z', 10)
             };
             random = new Random();
-            letterToIndex = new HashMap<>();
-            for (int i = 0; i < tiles.length; i++) {
-                letterToIndex.put(tiles[i].letter, i);
-            }
         }
         public static Bag getBag() {
             if (instance == null)
@@ -65,8 +56,11 @@ public class Tile {
         }
 
         public Tile getTile(char letter) {
-            Integer index = letterToIndex.get(letter);
-            if (index == null || amounts[index] == 0) {
+            if (letter < 'A' || letter > 'Z') {
+                return null;
+            }
+            int index = letter - 'A';
+            if (amounts[index] == 0) {
                 return null;
             }
             amounts[index]--;
@@ -74,8 +68,8 @@ public class Tile {
         }
 
         public void put(Tile t){
-            Integer index = letterToIndex.get(t.letter);
-            if(index != null && amounts[index] != INITIAL_AMOUNTS[index])
+            int index = t.letter - 'A';
+            if(amounts[index] != INITIAL_AMOUNTS[index] && t.letter>='A' && t.letter<='Z')
                 amounts[index]++;
         }
         public int size(){
