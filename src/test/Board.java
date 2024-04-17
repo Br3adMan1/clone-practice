@@ -176,4 +176,70 @@ public class Board {
         return a;
     }
 
+    private int calculateWordPositionScore(Word w) {
+        int wordPositionScore = 0;
+        for (Tile tile : w.tiles) {
+            if (tile != null) {
+                int letterValue = tile.score;
+                wordPositionScore += letterValue;
+                int bonus = bonuses[w.row][w.col];
+                if (bonus == 2) { // Double letter
+                    wordPositionScore += letterValue;
+                } else if (bonus == 3) { // Triple letter
+                    wordPositionScore += 2 * letterValue;
+                }
+            }
+        }
+        return wordPositionScore;
+    }
+
+    private int calculateWordMultiplierForVertical(Word w) {
+        int wordMultiplier = 1;
+        int col = w.col;
+        for (Tile tile : w.tiles) {
+            if (tile != null) {
+                int bonus = bonuses[w.row][col];
+                if (bonus == 4) { // Double word
+                    wordMultiplier *= 2;
+                } else if (bonus == 5) { // Triple word
+                    wordMultiplier *= 3;
+                }
+            }
+            col++;
+        }
+        return wordMultiplier;
+    }
+
+    private int calculateWordMultiplierForHorizontal(Word w) {
+        int wordMultiplier = 1;
+        int row = w.row;
+        for (Tile tile : w.tiles) {
+            if (tile != null) {
+                int bonus = bonuses[row][w.col];
+                if (bonus == 4) { // Double word
+                    wordMultiplier *= 2;
+                } else if (bonus == 5) { // Triple word
+                    wordMultiplier *= 3;
+                }
+            }
+            row++;
+        }
+        return wordMultiplier;
+    }
+
+    public int getScore(Word w) {
+        int score = 0;
+        int wordMultiplier = 1;
+        int wordPositionScore = calculateWordPositionScore(w);
+
+        if (w.vertical) {
+            wordMultiplier = calculateWordMultiplierForVertical(w);
+        } else {
+            wordMultiplier = calculateWordMultiplierForHorizontal(w);
+        }
+
+        score += wordPositionScore * wordMultiplier;
+        return score;
+    }
+
 }
