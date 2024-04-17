@@ -56,6 +56,9 @@ public class Tile {
         }
 
         public Tile getTile(char letter) {
+            if (letter == '_') {
+                return new Tile('_', 0);
+            }
             if (letter < 'A' || letter > 'Z') {
                 return null;
             }
