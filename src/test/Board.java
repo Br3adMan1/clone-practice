@@ -191,56 +191,52 @@ public class Board {
 
         return tempTiles;
     }
+    private String buildWordString(Tile[] tiles) {
+        StringBuilder wordBuilder = new StringBuilder();
+        for (Tile tile : tiles) {
+            if (tile != null) {
+                wordBuilder.append(tile.letter);
+            }
+        }
+        return wordBuilder.toString();
+    }
+
 
     public ArrayList<Word> getWords(Word w) {
         ArrayList<Word> a = new ArrayList<>();
         addFirstWordToList(a, w.tiles, w.row, w.col, w.vertical);
+
         int count = 0;
         for (int i = 0; i < w.tiles.length; i++) {
-            int beg = 0;
-            int end = 0;
+            int beg, end;
             if (w.vertical) {
                 beg = findBeginningOfWord(w.row + i, w.col, !w.vertical);
                 end = findEndOfWord(w.row + i, w.col, !w.vertical);
-            } else {
+            }
+            else {
                 beg = findBeginningOfWord(w.row, w.col + i, !w.vertical);
                 end = findEndOfWord(w.row, w.col + i, !w.vertical);
             }
             int size = end - beg + 1;
             Tile[] tempTiles = findWord(beg, size, w, count);
-            if (w.vertical && tempTiles != null) {
-                StringBuilder newWordBuilder = new StringBuilder();
-                for (Tile tile : tempTiles) {
-                    if (tile != null) {
-                        newWordBuilder.append(tile.letter);
-                    }
-                }
-                Word newWord = new Word(tempTiles, w.row + count, beg, !w.vertical);
-                String newWordString = newWordBuilder.toString();
+
+            if (tempTiles != null) {
+                String newWordString = buildWordString(tempTiles);
+                Word newWord = new Word(tempTiles,
+                        w.vertical ? (w.row + count) : beg,
+                        w.vertical ? beg : (w.col + count),
+                        !w.vertical);
                 if (!foundWords.contains(newWordString)) {
                     a.add(newWord);
                     foundWords.add(newWordString);
                 }
             }
-            if (!w.vertical && tempTiles != null) {
-                StringBuilder newWordBuilder = new StringBuilder();
-                for (Tile tile : tempTiles) {
-                    if (tile != null) {
-                        newWordBuilder.append(tile.letter);
-                    }
-                }
-                Word newWord = new Word(tempTiles, beg, w.col + count, !w.vertical);
-                String newWordString = newWordBuilder.toString();
-                if (!foundWords.contains(newWordString)) {
-                    a.add(newWord);
-                    foundWords.add(newWordString);
-                }
-            }
+
             count++;
         }
+
         return a;
     }
-
     private int calculateWordPositionScore(Word w) {
         int wordPositionScore = 0;
         int row = w.row;
