@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="32b5ea47-c67c-4afa-99b6-56786196da1f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/LFU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/LFU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/LRU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/CacheManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/CacheManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,7 @@
   "keyToString": {
     "Application.MainTrain.executor": "Run",
     "Application.MainTrain1.executor": "Run",
+    "Application.MainTrain2.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "CacheManager",
@@ -89,6 +89,7 @@
       <workItem from="1714246313567" duration="643000" />
       <workItem from="1714299146683" duration="27000" />
       <workItem from="1714301534374" duration="2269000" />
+      <workItem from="1714313469298" duration="1641000" />
     </task>
     <servers />
   </component>
@@ -113,6 +114,15 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/MainTrain2.java</url>
+          <line>110</line>
+          <properties class="test.MainTrain2" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
