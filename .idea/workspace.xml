@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="32b5ea47-c67c-4afa-99b6-56786196da1f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/IOSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/IOSearcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/MainTrain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MainTrain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Dictionary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/text2.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
     "Application.MainTrain2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "IOSearcher",
+    "git-widget-placeholder": "Dictionary",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/W/JavaProjects/Book scrabble",
     "node.js.detected.package.eslint": "true",
@@ -116,6 +117,11 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/MainTrain2.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
