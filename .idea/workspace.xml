@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="32b5ea47-c67c-4afa-99b6-56786196da1f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/CacheManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/CacheManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BloomFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MainTrain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MainTrain2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +18,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -35,7 +36,7 @@
     "Application.MainTrain2.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "CacheManager",
+    "git-widget-placeholder": "BloomFilter",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/W/JavaProjects/Book scrabble",
     "node.js.detected.package.eslint": "true",
@@ -90,6 +91,7 @@
       <workItem from="1714299146683" duration="27000" />
       <workItem from="1714301534374" duration="2269000" />
       <workItem from="1714313469298" duration="1641000" />
+      <workItem from="1714387500619" duration="2939000" />
     </task>
     <servers />
   </component>
@@ -114,14 +116,10 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/MainTrain2.java</url>
-          <line>110</line>
-          <properties class="test.MainTrain2" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
+          <line>113</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
