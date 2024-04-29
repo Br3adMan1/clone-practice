@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="32b5ea47-c67c-4afa-99b6-56786196da1f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/BloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BloomFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/IOSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/IOSearcher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/MainTrain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MainTrain2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,10 +33,10 @@
   "keyToString": {
     "Application.MainTrain.executor": "Run",
     "Application.MainTrain1.executor": "Run",
-    "Application.MainTrain2.executor": "Debug",
+    "Application.MainTrain2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "BloomFilter",
+    "git-widget-placeholder": "IOSearcher",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/W/JavaProjects/Book scrabble",
     "node.js.detected.package.eslint": "true",
@@ -116,21 +116,7 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/MainTrain2.java</url>
-          <line>113</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="w.tiles" />
-        <watch expression="newWords.get(1).tiles[3]" />
-        <watch expression="newWords.get(0)" />
-        <watch expression="newWords.get(0).tiles[1]" />
-        <watch expression="newWords.get(0).tiles" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
