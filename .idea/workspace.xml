@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b5ea47-c67c-4afa-99b6-56786196da1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/BookScrabbleHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BookScrabbleHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MainTrain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MainTrain3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/t1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/t2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/t3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/t3.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +40,7 @@
     "Application.MainTrain3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "BookScrabbleHandler",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/W/JavaProjects/Book scrabble",
     "node.js.detected.package.eslint": "true",
@@ -118,11 +123,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/MainTrain3.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
