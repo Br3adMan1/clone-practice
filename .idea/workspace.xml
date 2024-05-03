@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="32b5ea47-c67c-4afa-99b6-56786196da1f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/DictionaryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/DictionaryManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MainTrain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MainTrain3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +18,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -33,9 +34,10 @@
     "Application.MainTrain.executor": "Run",
     "Application.MainTrain1.executor": "Run",
     "Application.MainTrain2.executor": "Run",
+    "Application.MainTrain3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "DictionaryManager",
+    "git-widget-placeholder": "Server",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/W/JavaProjects/Book scrabble",
     "node.js.detected.package.eslint": "true",
@@ -92,6 +94,8 @@
       <workItem from="1714313469298" duration="1641000" />
       <workItem from="1714387500619" duration="2939000" />
       <workItem from="1714732770915" duration="1548000" />
+      <workItem from="1714749521463" duration="2562000" />
+      <workItem from="1714762829897" duration="5036000" />
     </task>
     <servers />
   </component>
@@ -116,6 +120,11 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/MainTrain3.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
