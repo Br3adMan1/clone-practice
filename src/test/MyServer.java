@@ -37,10 +37,12 @@ public class MyServer {
                             outputStream.close();
                             clientSocket.close();
                         } catch (IOException e) {
-                            e.printStackTrace();
+                                e.printStackTrace();
                         }
                     } catch (IOException e){
-                        e.printStackTrace();
+                        if (!serverSocket.isClosed()) {
+                            e.printStackTrace();
+                        }
                     }
                 }
             } catch (IOException e) {
