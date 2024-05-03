@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32b5ea47-c67c-4afa-99b6-56786196da1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/BookScrabbleHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/BookScrabbleHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/MainTrain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MainTrain3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/t1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/t2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/t3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/t1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/t2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/t3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text2.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     "Application.MainTrain3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "BookScrabbleHandler",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/W/JavaProjects/Book scrabble",
     "node.js.detected.package.eslint": "true",
